@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    container_name: flask_api
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=${FLASK_APP}
+      - FLASK_ENV=${FLASK_ENV}
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    networks:
+      - api_network
+
+  db:
+    image: postgres:16
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: course_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - api_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  api_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

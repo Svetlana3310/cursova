@@ -1,0 +1,37 @@
+2024-12-22 18:49:10 INFO: Flask app starting up
+2024-12-22 18:49:10 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2024-12-22 18:49:10 INFO: [33mPress CTRL+C to quit[0m
+2024-12-22 18:49:30 INFO: 172.19.0.1 - - [22/Dec/2024 18:49:30] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 18:50:27 INFO: 172.19.0.1 - - [22/Dec/2024 18:50:27] "[35m[1mPOST /api/student/history HTTP/1.1[0m" 500 -
+2024-12-22 18:51:48 INFO: 172.19.0.1 - - [22/Dec/2024 18:51:48] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 18:53:06 INFO: 172.19.0.1 - - [22/Dec/2024 18:53:06] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 18:56:19 INFO: 172.19.0.1 - - [22/Dec/2024 18:56:19] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:00:11 INFO: 172.19.0.1 - - [22/Dec/2024 19:00:11] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:02:25 INFO: 172.19.0.1 - - [22/Dec/2024 19:02:25] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 19:03:16 INFO: 172.19.0.1 - - [22/Dec/2024 19:03:16] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:08:55 INFO: 172.19.0.1 - - [22/Dec/2024 19:08:55] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:25:36 INFO: 172.19.0.1 - - [22/Dec/2024 19:25:36] "POST /auth/login HTTP/1.1" 200 -
+2024-12-22 19:26:38 INFO: 172.19.0.1 - - [22/Dec/2024 19:26:38] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:28:04 INFO: 172.19.0.1 - - [22/Dec/2024 19:28:04] "[35m[1mGET /api/student/historyg HTTP/1.1[0m" 500 -
+2024-12-22 19:28:12 INFO: 172.19.0.1 - - [22/Dec/2024 19:28:12] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:38:57 INFO: 172.19.0.1 - - [22/Dec/2024 19:38:57] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:39:07 INFO: 172.19.0.1 - - [22/Dec/2024 19:39:07] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:39:27 INFO: 172.19.0.1 - - [22/Dec/2024 19:39:27] "[35m[1mPOST /auth HTTP/1.1[0m" 500 -
+2024-12-22 19:40:02 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:02] "[35m[1mPOST /auth/ HTTP/1.1[0m" 500 -
+2024-12-22 19:40:20 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:20] "GET /auth/ HTTP/1.1" 200 -
+2024-12-22 19:40:41 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:41] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:40:55 INFO: 172.19.0.1 - - [22/Dec/2024 19:40:55] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:43:56 INFO: 172.19.0.1 - - [22/Dec/2024 19:43:56] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:45:51 INFO: 172.19.0.1 - - [22/Dec/2024 19:45:51] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:50:36 INFO: 172.19.0.1 - - [22/Dec/2024 19:50:36] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:50:43 INFO: 172.19.0.1 - - [22/Dec/2024 19:50:43] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 19:51:22 INFO: 172.19.0.1 - - [22/Dec/2024 19:51:22] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:00:24 INFO: 172.19.0.1 - - [22/Dec/2024 20:00:24] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:02:52 INFO: 172.19.0.1 - - [22/Dec/2024 20:02:52] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:08:07 INFO: 172.19.0.1 - - [22/Dec/2024 20:08:07] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:11:23 INFO: 172.19.0.1 - - [22/Dec/2024 20:11:23] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:12:27 INFO: 172.19.0.1 - - [22/Dec/2024 20:12:27] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
+2024-12-22 20:17:05 INFO: 172.19.0.1 - - [22/Dec/2024 20:17:05] "[31m[1mGET /api/student/history HTTP/1.1[0m" 401 -
